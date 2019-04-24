@@ -3,9 +3,6 @@ import { reactI18nextModule } from 'react-i18next';
 import LanguageDetector from 'i18next-browser-languagedetector';
 import XHR from 'i18next-xhr-backend';
 import en from './translations/en.json';
-import sk from './translations/sk.json';
-import cs from './translations/cs.json';
-import ro from './translations/ro.json';
 import tr from './translations/tr.json';
 
 i18n
@@ -18,10 +15,7 @@ i18n
     defaultNS: 'translations',
     resources: {
       en,
-      sk,
-      ro,
-      tr,
-      cs,
+      tr
     },
     nonExplicitWhitelist: true,
     debug: false,

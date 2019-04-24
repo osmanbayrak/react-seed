@@ -7,10 +7,10 @@ const { Content } = Layout;
 
 const GlobalLayout = props => (
   <Layout className="layout">
-    <Content>
     <HeaderComponent />
-      {props.children}
-    </Content>
+      <Content>
+        {props.children}
+      </Content>
     <FooterComponent />
   </Layout>
 );

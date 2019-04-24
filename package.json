@@ -1,9 +1,9 @@
 {
-  "name": "iot",
-  "version": "1.0.0",
-  "description": "React-Redux app",
+  "name": "react-seed",
+  "version": "0.1.0",
+  "description": "React seed by Osman Bayrak",
   "main": "dist/main.js",
-  "author": "Yunus Emre Tatar <yunusemre.tatar@sekomyazilim.com.tr>",
+  "author": "Osman Bayrak",
   "license": "MIT",
   "keywords": [
     "react",

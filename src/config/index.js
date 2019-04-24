@@ -1,9 +1,7 @@
 module.exports = {
-  name: 'LOTT',
-  prefix: 'Water',
+  name: 'react-seed',
   footerText: `Copyright © ${new Date().getFullYear()} All rights reserved`,
   dateFormat: 'DD/MM/YYYY',
-  unit: 'm³',
   responsive: {
     xs: 23,
     sm: 23,

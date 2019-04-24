@@ -1,8 +1,6 @@
 // @ts-check
 import React from 'react';
-import Button from 'antd/lib/button';
-import Row from 'antd/lib/row';
-import Col from 'antd/lib/col';
+import { Button, Col, Row } from 'antd';
 import { Link } from 'react-router-dom';
 import Config from './config';
 
