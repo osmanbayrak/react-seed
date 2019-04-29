@@ -1,4 +1,5 @@
-@import url(antd.css);
+@import './antd.css';
+
 .pr {
   position: relative; }
 
@@ -246,11 +247,13 @@ body {
   padding: 10px;
   background: white;
   margin: 0; }
-  .meter-box .deviceInfoColor {
-    color: #108ee9; }
-  .meter-box .consumer-info {
-    font-size: 14px;
-    font-weight: bolder; }
+
+.meter-box .deviceInfoColor {
+  color: #108ee9; }
+
+.meter-box .consumer-info {
+  font-size: 14px;
+  font-weight: bolder; }
 
 .DayPickerInput {
   position: relative;
@@ -262,10 +265,11 @@ body {
   background: white;
   border-radius: 4px;
   margin-left: 4px; }
-  @media screen and (max-width: 768px) {
-    .DayPickerInput {
-      margin-left: 0;
-      margin-right: 4px; } }
+
+@media screen and (max-width: 768px) {
+  .DayPickerInput {
+    margin-left: 0;
+    margin-right: 4px; } }
 
 .DayPicker-Footer {
   border-top: 1px solid #eee;

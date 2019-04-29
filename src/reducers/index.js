@@ -1,10 +1,8 @@
 import { combineReducers } from 'redux';
 import { routerReducer } from 'react-router-redux';
-import { device, graphs, notifications } from './states';
+import { datas } from './states';
 
 export default combineReducers({
-  device,
-  graphs,
-  notifications,
+  datas,
   router: routerReducer,
 });

@@ -51,7 +51,7 @@ render(
       <Root />
     </ConnectedRouter>
   </Provider>,
-  document.getElementById('iot'),
+  document.getElementById('root'),
 );
 /* istanbul ignore if */
 if (process.env.NODE_ENV === 'development' && module.hot) {
