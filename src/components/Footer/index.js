@@ -5,8 +5,8 @@ import { Layout } from 'antd';
 const { Footer } = Layout;
 
 const FooterComponent = () => (
-  <Footer style={{ textAlign: 'center' }}>
-    Ant Design ©2018 Created by Ant UED
+  <Footer style={{ textAlign: 'center', background: '#d2d7e0', fontSize: '16px', color: 'black' }}>
+    Copy Right ©2018 Osman Bayrak
   </Footer>
 );
 

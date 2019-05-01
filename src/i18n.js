@@ -15,7 +15,7 @@ i18n
     defaultNS: 'translations',
     resources: {
       en,
-      tr
+      tr,
     },
     nonExplicitWhitelist: true,
     debug: false,

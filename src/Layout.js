@@ -6,11 +6,9 @@ import { Layout } from 'antd';
 const { Content } = Layout;
 
 const GlobalLayout = props => (
-  <Layout className="layout">
+  <Layout className="layout" style={{ background: '#d2d7e0' }}>
     <HeaderComponent />
-      <Content>
-        {props.children}
-      </Content>
+    <Content>{props.children}</Content>
     <FooterComponent />
   </Layout>
 );
